@@ -174,9 +174,6 @@ The istiodRemote component now includes all of the resources needed for either a
   
 - **Updated** Jaeger addon to v1.22.
   
-
-
-
 - **Fixed** the upgrade and downgrade message of the control plane.
   ([Issue #32749](https://github.com/istio/istio/issues/32749))
 
