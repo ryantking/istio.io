@@ -11,6 +11,7 @@ The notes also mention changes which preserve backwards compatibility while intr
 Changes are only included if the new behavior would be unexpected to a user of Istio 1.10.0.
 
 ## The istiodRemote installation component now includes config cluster resources.
+
 Installing Istio on a remote cluster that is using an external control plane was previously done by disabling the `base` and `pilot`
 components and enabling the `istiodRemote` component in the IOP:
 
