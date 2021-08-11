@@ -207,8 +207,4 @@ Usually required when the VM workloads aren't in the same network as the primary
 **Added** --vklog option to enable verbose logging in client-go.
   ([Issue #28231](https://github.com/istio/istio/issues/28231))
 
-
-
-
-
 ## Documentation changes
