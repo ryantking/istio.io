@@ -64,6 +64,7 @@ values:
 {{< /text >}}
 
 ## Host header fallback disabled by default for Prometheus metrics for *all* inbound traffic.
+
 Host header fallback for determining values for Prometheus `destination_service` labels has been disabled for all incoming traffic.
 Previously, this was disabled *only* for traffic arriving at Gateways. If you are relying on host header fallback behavior to properly
 label the `destination_service` in Prometheus metrics for traffic originating from out-of-mesh workloads, then you will need to update the telemetry
