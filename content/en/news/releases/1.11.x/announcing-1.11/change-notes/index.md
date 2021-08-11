@@ -114,7 +114,6 @@ in cases of misconfiguration.
 - **Optimized** generated routing configuration to merge virtual hosts with the same routing configuration. This improves performance for Virtual Services with multiple hostnames defined.
   ([Issue #28659](https://github.com/istio/istio/issues/28659))
 
-
 ## Security
 
 
