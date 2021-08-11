@@ -128,8 +128,6 @@ in cases of misconfiguration.
 
 ## Telemetry
 
-
-
 - **Updated** Prometheus telemetry behavior for inbound traffic to disable host header fallback by default. This will
 prevent traffic coming from out-of-mesh locations from potentially polluting the `destination_service` dimension in
 metrics with junk data (and exploding metrics cardinality). With this change, it is possible that users relying on
