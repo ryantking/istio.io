@@ -203,8 +203,6 @@ Usually required when the VM workloads aren't in the same network as the primary
   
 - **Added** istioctl now supports completion for Kubernetes pods, services.
   
-
-
 - **Fixed** user-agent in all istio binaries to include version.
 **Added** --vklog option to enable verbose logging in client-go.
   ([Issue #28231](https://github.com/istio/istio/issues/28231))
