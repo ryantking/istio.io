@@ -71,6 +71,7 @@ label the `destination_service` in Prometheus metrics for traffic originating fr
 configuration to enable host header fallback.
 
 ## EnvoyFilter `match.routeConfiguration.vhost.name` semantics change
+
 `EnvoyFilter` matches rely on internal implementation details to match generated xDS segments, which is subject to change at any time.
 
 In this release, the [virtual host name match](https://istio.io/latest/docs/reference/config/networking/envoy-filter/#EnvoyFilter-RouteConfigurationMatch-VirtualHostMatch) may have different results.
