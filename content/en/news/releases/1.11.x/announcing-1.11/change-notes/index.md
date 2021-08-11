@@ -199,7 +199,6 @@ Usually required when the VM workloads aren't in the same network as the primary
 
 - **Added** a new analyzer to check for `image: auto` in Pods and Deployments that will not be injected.
   
-
 - **Added** support for auto-completion of the namespace for istioctl.
   
 
