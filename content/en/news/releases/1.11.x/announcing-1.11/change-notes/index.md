@@ -53,7 +53,7 @@ this automatically.
   
 - **Added** an environment variable `PILOT_STATUS_UPDATE_INTERVAL` that is the interval to update the XDS distribution status and its default value is `500ms`.
 
-- **Added** The Istio sidecar agent will offer HTTP endpoint localhost:15004/debug/<typeurl>.  GET requests
+- **Added** the HTTP endpoint localhost:15004/debug/<typeurl> to the Istio sidecar agent.  GET requests
 to that URL will be resolved by sending an xDS discovery "event" to istiod.  This can be disabled by setting
 the following in the Istio Operator: `meshConfig.defaultConfig.proxyMetadata.PROXY_XDS_DEBUG_VIA_AGENT=false`
   ([Issue #22274](https://github.com/istio/istio/issues/22274))
