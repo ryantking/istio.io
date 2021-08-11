@@ -135,7 +135,6 @@ host headers for labeling the destination service for inbound traffic from out-o
 labeled as `unknown`. The behavior can be restored by modifying Istio configuration to remove the `disable_host_header_fallback: true`
 configuration.
   
-
 - **Added** support for [Apache SkyWalking](https://skywalking.apache.org/) tracer. Now you can run the `istioctl dashboard skywalking` command to view skywalking dashboard UI.
   ([Issue #32588](https://github.com/istio/istio/pull/32588))
 
