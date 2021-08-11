@@ -172,7 +172,6 @@ The istiodRemote component now includes all of the resources needed for either a
   
 - **Updated** the base image versions to be built on `ubuntu:focal` and `debian10` (for distroless).
   
-
 - **Updated** Jaeger addon to v1.22.
   
 
