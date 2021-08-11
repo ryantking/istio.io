@@ -104,7 +104,6 @@ match the route `/foo/` but not the route `/foo`.
 
 - **Fixed** an issue allowing ServiceEntries to act as instances in other namespaces.
   
-
 - **Fixed** an issue causing proxies to send `Transfer-Encoding` headers with `1xx` and `204` responses.
   
 
