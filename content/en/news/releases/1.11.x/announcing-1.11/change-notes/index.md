@@ -106,7 +106,6 @@ match the route `/foo/` but not the route `/foo`.
   
 - **Fixed** an issue causing proxies to send `Transfer-Encoding` headers with `1xx` and `204` responses.
   
-
 - **Fixed** reconciliation logic in the validation webhook controller to rate-limit
 the retries in the loop. This should drastically reduce churn (and generated logs)
 in cases of misconfiguration.
