@@ -170,7 +170,6 @@ The istiodRemote component now includes all of the resources needed for either a
 
 - **Improved** the size of container images, decreasing each image by up to 50mb. As a result, the `linux-tools-generic` package, as well as dependencies (including `python`) are no longer installed.
   
-
 - **Updated** the base image versions to be built on `ubuntu:focal` and `debian10` (for distroless).
   
 
