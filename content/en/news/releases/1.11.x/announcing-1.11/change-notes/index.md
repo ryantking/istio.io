@@ -187,9 +187,6 @@ The istiodRemote component now includes all of the resources needed for either a
 
 - **Promoted** the `istioctl experimental revision tag` command group to `istioctl tag`.
   
-
-
-
 - **Added** `--workloadIP` flag to `istioctl x workload entry configure`, which sets the configuration for the workload IP that the sidecar proxy uses to auto register a workload Entry. 
 Usually required when the VM workloads aren't in the same network as the primary cluster to which they register. 
   ([Issue #32462](https://github.com/istio/istio/issues/32462))
