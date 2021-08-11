@@ -49,7 +49,6 @@ from other clusters that are on the same network.
 The recommended way to access the debug interface is through `istioctl experimental internal-debug`, which handles
 this automatically.
   
-
 - **Added** the `shutdownDuration` flag to [pilot-discovery](/docs/reference/commands/pilot-discovery/) so that users can configure the duration istiod needs to terminate gracefully. The default value is 10s.
   
 
