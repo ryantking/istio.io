@@ -183,8 +183,6 @@ The istiodRemote component now includes all of the resources needed for either a
 - **Removed** the `istio.io/rev` label injected on pods and replaced it with the `istio.io/injectedBy` label.
   ([Issue #33447](https://github.com/istio/istio/issues/33447))
 
-
-
 ## istioctl
 
 - **Promoted** the `istioctl experimental revision tag` command group to `istioctl tag`.
