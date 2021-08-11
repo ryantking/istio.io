@@ -50,7 +50,7 @@ The recommended way to access the debug interface is through `istioctl experimen
 this automatically.
   
 
-- **Added** the `ShutdownDuration` flag to [pilot-discovery](/docs/reference/commands/pilot-discovery/) so that users can configure the duration istiod needs to terminate gracefully. The default value is 10s.
+- **Added** the `shutdownDuration` flag to [pilot-discovery](/docs/reference/commands/pilot-discovery/) so that users can configure the duration istiod needs to terminate gracefully. The default value is 10s.
   
 
 - **Added** an environment variable `PILOT_STATUS_UPDATE_INTERVAL` that is the interval to update the XDS distribution status and its default value is `500ms`.
