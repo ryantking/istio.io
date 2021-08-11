@@ -82,7 +82,6 @@ endpoints. this process can be automated by enabling the Istio flag `ENABLE_MCS_
 Istio will automatically create `ServiceExport` in all clusters for each service.
   ([Issue #29384](https://github.com/istio/istio/issues/29384))
 
-
 - **Fixed** an issue to enableCoreDump using the sidecar annotation
  ([reference]( https://istio.io/latest/docs/reference/config/annotations/)) ([Issue #26668](https://github.com/istio/istio/issues/26668))
 
