@@ -201,7 +201,6 @@ Usually required when the VM workloads aren't in the same network as the primary
   
 - **Added** support for auto-completion of the namespace for istioctl.
   
-
 - **Added** istioctl now supports completion for Kubernetes pods, services.
   
 
