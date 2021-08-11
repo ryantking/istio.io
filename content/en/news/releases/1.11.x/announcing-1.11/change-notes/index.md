@@ -147,10 +147,6 @@ configuration.
 correctly handle the case where the application metrics are exposed as [OpenMetrics](https://github.com/OpenObservability/OpenMetrics).
   ([Issue #33474](https://github.com/istio/istio/issues/33474))
 
-
-
-
-
 ## Extensibility
 
 
