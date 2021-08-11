@@ -140,7 +140,6 @@ configuration.
 
 - **Added** a new metric to `istiod` to report server uptime.
   
-
 - **Added** a new metric (`istiod_managed_clusters`) to `istiod` to track the number of clusters managed by an
 `istiod` instance.
   
