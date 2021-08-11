@@ -143,8 +143,6 @@ configuration.
 - **Added** a new metric (`istiod_managed_clusters`) to `istiod` to track the number of clusters managed by an
 `istiod` instance.
   
-
-
 - **Fixed** Prometheus [metrics merging](/docs/ops/integrations/prometheus/#option-1-metrics-merging) to
 correctly handle the case where the application metrics are exposed as [OpenMetrics](https://github.com/OpenObservability/OpenMetrics).
   ([Issue #33474](https://github.com/istio/istio/issues/33474))
