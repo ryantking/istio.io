@@ -180,7 +180,6 @@ The istiodRemote component now includes all of the resources needed for either a
 - **Fixed** Removing the empty caBundle default value from Chart to allow a GitOps approach
   ([Issue #33052](https://github.com/istio/istio/issues/33052))
 
-
 - **Removed** the `istio.io/rev` label injected on pods and replaced it with the `istio.io/injectedBy` label.
   ([Issue #33447](https://github.com/istio/istio/issues/33447))
 
